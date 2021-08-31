@@ -1,0 +1,18 @@
+.Pai {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 100px;
+  color: slategrey;
+  font-weight: bold;
+  font-family: "sans-serif";
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px 5px wheat;
+  background-color: wheat;
+}
+.Pai:hover {
+  cursor: pointer;
+  width: 250px;
+  transition: 300ms;
+}
