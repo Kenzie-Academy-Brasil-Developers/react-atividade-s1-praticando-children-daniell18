@@ -3,11 +3,9 @@ import CenteredCard from "./components/CenteredCard";
 function App() {
   return (
     <div className="App">
-      <CenteredCard children={"Card 1"} />
-      <CenteredCard children={"Card 2"} />
-      <CenteredCard children={"Card 3"} />
-      <CenteredCard children={"Card 4"} />
-      <CenteredCard children={"Card 5"} />
+      <CenteredCard>
+        <h3>Card</h3>
+      </CenteredCard>
     </div>
   );
 }
